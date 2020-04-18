@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://lit-woodland-14624.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://api.trello.com/1/boards/5e6defe2430c2d218611b356?key=ee81a0091be93cf5601cfbcc71b5b54d&token=b65e0c789215f0454d22868e4682235edb6518f3e850c4167143b0706658e3ae';
+  const trelloApiRoot = 'https://lit-woodland-14624.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
